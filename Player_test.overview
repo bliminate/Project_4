@@ -1,0 +1,79 @@
+Player_test00.cpp
+Simple test to see if count is initialized to 0.
+This is testing to see if the bet is equal to the 
+minimum.
+
+Player_test01.cpp
+Test to keep track of count after several cards have
+been dealt and exposed to the player with an new deck.
+3 cards are dealt, increasing the count to 3, therefore
+the bet should be double the minimum.
+
+Player_test02.cpp
+Test to see if count is reset to 0 after shuffle 
+is called. First test that the count increased, 
+then shuffle is called, and the bet should then
+be equal to the minimum.
+
+Player_test03.cpp
+Test to keep track of count after deck has been
+shuffled with cut at 15 and 8 cards have been dealt
+and exposed to the player. The player should bet 2 times
+the minimum, as the count is greater then 2.
+
+Player_test04.cpp
+Test to keep track of count after deck has been
+shuffled with cut at 15 and 34 cards have been dealt
+and exposed to the player. The count should be 5, 
+therefore the player should bet 2 times the minimum.
+
+Player_test05.cpp
+Test to keep track of count after deck has been
+shuffled with cut at 15 and 52 cards have been dealt
+and exposed to the player. The count should be 0, and
+the bet should be the minimum.
+
+Player_test06.cpp
+Simple test for bet, count is less then two, bankroll > minimum.
+
+Player_test07.cpp
+Test for bet, count > 2, bankroll > 2*minimum.
+
+Player_test08.cpp
+Test for bet, count > 2, bankroll < 2*minimum.
+
+Player_test09.cpp
+Test draw function, hard hand < 11.
+
+Player_test10.cpp
+Test draw function, hard hand = 12, and dealer shows a card
+between 4 and 6 inclusive.
+
+Player_test11.cpp
+Test draw function with hard hand of value between 13 and 16
+inclusive, and the dealer shows a 2 through 6 inclusive.
+
+Player_test12.cpp
+Test draw function with hard hand value greater then 17.
+
+Player_test13.cpp
+Test draw function when player's hard hand = 12, and the dealer does
+not show a card between 4 and 6 inclusive
+
+Player_test14.cpp
+Test draw function when player's hard hand is between 13 and 16 inclusive,
+and the dealer shows a card greater then a 6.
+
+Player_test15.cpp
+Test draw function when player has a soft hand <= 17.
+
+Player_test16.cpp
+Test draw function when player has a soft hand = 18 and the dealer
+shows a 2, 7, or 8.
+
+Player_test17.cpp
+Test draw function when player has a soft hand = 18, and the dealer
+does not show a 2, 7, or 8.
+
+Player_test18.cpp
+Test draw function when player has a soft hand > 18.

@@ -1,0 +1,54 @@
+Deck_test00.cpp
+This test case tests a simple case involving the shuffle and
+deal functions.
+
+Deck_test01.cpp
+This tests the reset function to see if the deck is properly reset
+to the "newly opened" state.
+
+Deck_test02.cpp
+This tests that the reset function recalls the cards that have been dealt
+
+Deck_test03.cpp
+Tests shuffle when split at "0".
+
+Deck_test04.cpp
+Tests shuffle when split at "52".
+
+Deck_test05.cpp
+Passes in invalid input i.e. a number > 52 or < 0.
+
+Deck_test06.cpp
+Boundry test, if .shuffle(26) is called repeatedly.
+
+Deck_test07.cpp
+Tests when cards have been dealt, and .shuffle() is called,
+.shuffle() "recalls" said cards to re-shuffle the deck.
+
+Deck_test08.cpp
+Tests deal when all 52 are dealt.
+
+Deck_test09.cpp
+simple deal test for multiple cards being handed out from a new pack.
+
+Deck_test10.cpp
+Test cards remaining when 0 cards have been dealt.
+
+Deck_test11.cpp
+Test cards remaining when 19 cards have been dealt.
+
+Deck_test12.cpp
+Test cards remaining when 34 cards have been dealt.
+
+Deck_test13.cpp
+Test cards remaining when 52 cards have been dealt.
+
+Deck_test14.cpp
+Tests shuffle when split at "33".
+
+Deck_test15.cpp
+Tests shuffle when split at "15".
+
+
+
+
