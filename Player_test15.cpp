@@ -18,6 +18,8 @@ int main()
 	Hand chand1;
 	Hand chand2;
 
+	//I added this comment line
+
 	Card c = Card(Card::ACE, Card::SPADES);
 	Card d = Card(Card::FIVE, Card::CLUBS);
 
